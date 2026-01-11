@@ -9,11 +9,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Environment Configuration
         run: |
-          sed -i 's/AI_API_KEY_PLACEHOLDER/${{ secrets.AI_API_KEY }}/g' ai.js
-          sed -i 's/AUTH_API_KEY_PLACEHOLDER/${{ secrets.AUTH_API_KEY }}/g' auth_manager.js
+          sed -i "s|AI_API_KEY_PLACEHOLDER|${{ secrets.AI_API_KEY }}|g" ai.js
+          sed -i "s|AUTH_API_KEY_PLACEHOLDER|${{ secrets.AUTH_API_KEY }}|g" auth_manager.js
       - name: Production Sync
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: .
           branch: gh-pages
-          
