@@ -4,7 +4,7 @@ const AIManager = {
     // --- Configuration ---
     
     // --- NEW: Centralized API config ---
-    API_KEY: "AIzaSyBGdlO5vH4bNMOZSOu6ZzYZN4Rg1eYCMN4", // API key is injected
+    API_KEY: "AI_API_KEY_PLACEHOLDER", // API key is injected
     API_URL: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent",
 
     // --- NEW: System prompt for NAMING circuits ---
