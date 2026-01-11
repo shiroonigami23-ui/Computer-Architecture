@@ -1,5 +1,5 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyDSvQT6Zd-vX6T9qK5_y_kYCg7epRrgYQ0",
+  apiKey: "AUTH_API_KEY_PLACEHOLDER",
   authDomain: "computer-architecure-b52ab.firebaseapp.com",
   projectId: "computer-architecure-b52ab",
   storageBucket: "computer-architecure-b52ab.firebasestorage.app",
